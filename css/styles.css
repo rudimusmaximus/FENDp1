@@ -1,0 +1,15 @@
+/* Set a max-width catch all in your main css to avoid overflow */
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+/* set my fonts */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
