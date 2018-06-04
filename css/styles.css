@@ -1,17 +1,43 @@
-/* Set a max-width catch all in your main css to avoid overflow */
-
-img, embed, object, video {
-  max-width: 100%;
-}
-
-/* set my fonts */
-
-html {
-  font-family: 'Open Sans', sans-serif;
-  height: 100%;
+/* reset everything */
+*, *:before, *:after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100%;
+}
+/* set my fonts */
+.header, .main {
+  font-family: 'Open Sans', sans-serif;
+  /* height: 100%;
+  width: 100%; */
+}
+.header-text {
+  color: #2d3c49;
+}
+.featured-work-header {
+  color: #7d97ad;
+}
+.featured-item-header {
+  color: #2d3c49;
+}
+.header {
+  border-bottom: #7d97ad solid thick;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.header-title {
+  margin-bottom: 25px;
+}
+.featured-work-header {
+  text-align: center;
 }
 
-/* TODO add a border bottom to the header row in the collor #7d97ad and padd the header to push it down? */
+/* Set a max-width catch all in your main css to avoid overflow */
+/* learned this was process heavy to use tags and better to use classes */
+/* added class to achieve this just for my images  */
+/* img, embed, object, video {
+  max-width: 100%;
+} */
+.images {
+  max-width: 100%;
+  height: auto;
+}

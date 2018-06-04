@@ -11,35 +11,46 @@
 </head>
 
 <body>
-  <header>
-    <div class="header_logo">
+  <header class="header">
+    <div class="header-logo-container">
       <!-- TODO better logo -->
-      <img class="logo" src="img/screenCropTempLogo.png" alt="the udacity letter u logo">
+      <img class="images header-logo-container-img" src="img/screenCropTempLogo.png" alt="the udacity letter u logo">
     </div>
-    <div class="header_text">
-      <h1>raul flores, jr mba "rudy"</h1>
-      <p>Web Front End Practioner</p>
+    <div class="header-text">
+      <h1 class="header-subject">raul flores, jr mba "rudy"</h1>
+      <p class="header-title">Web Front End Practitioner</p>
     </div>
   </header>
-  <main>
-    <section class="hero_container">
-      <img class="hero" src="img/Hero_small368x137.png" alt="my screen crop from LinkedIn profile of Raul Flores, Jr">
+  <main class="main">
+    <section class="hero-container">
+      <img class="images hero-container-img" srcset="img/Hero_large_sx4.png" , "img/Hero_medium_sx2.png", "img/Hero_small480x179.png" alt="my screen crop from LinkedIn profile of Raul Flores, Jr">
+
+      <!-- <img class= "images hero" src="img/Hero_small368x137.png" alt="my screen crop from LinkedIn profile of Raul Flores, Jr"> -->
     </section>
-    <section class="featured_work">
-      <h2>Featured Work<h2>
+    <section class="featured-work">
+      <h2 class="featured-work-header">Featured Work<h2>
         <!-- TODO: get better images or replace with course work -->
-        <div class="feature-one">
-          <img class="features" src="img/featureOne.png" alt="a temporary image">
-          <h3>SERVICES</h3>
+      <div class="featured-items">
+        <div class="featured item-one">
+          <img class= "images featured-img" src="img/featureOne.png" alt="a temporary image">
+          <h3 class="featured-item-header">SERVICES</h3>
+          <p class="featured-text">
+            <a href="https://subscriptionplus.redcrowmethods.com/" class="featured-link">more...</a>
+          </p>
         </div>
-        <div class="feature-two">
-          <img class="features" src="img/featureTwo.png" alt="a temporary image">
-          <h3>PLANNING</h3>
+        <div class="featured item-two">
+          <img class= "images featured-img" src="img/featureTwo.png" alt="a temporary image">
+          <h3 class="featured-item-header">PLANNING</h3>
+          <p class="featured-text">
+            <a href="https://www.linkedin.com/in/referencesforrudyflores/" class="featured-link">more...</a>
         </div>
-        <div class="feature-three">
-          <img class="features" src="img/featureThree.png" alt="a temporary image">
-          <h3>OPEN-SOURCE</h3>
+        <div class="featured item-three">
+          <img class= "images featured-img" src="img/featureThree.png" alt="a temporary image">
+          <h3 class="featured-item-header">OPEN-SOURCE</h3>
+          <p class="featured-text">
+            <a href="https://github.com/rudimusmaximus/DevFlow" class="featured-link">more...</a>
         </div>
+      </div>
     </section>
   </main>
 </body>

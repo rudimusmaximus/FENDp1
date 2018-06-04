@@ -45,7 +45,7 @@ We are responsible for images. I like to use Canva.com but for this, I'll explor
 
 | Question | Answer |
 | :--- | :--- |
-| 1.  |  |
+| 1. Unused class | When marking up semantic html, should we include classes that will not be used OR include most and delete unused at some version? |
 | 2. What is an HTML template vs an HTML document? | The Phrasing of #18 General Meta Rules got me thinking. Also, in a scripting context, I recall talk of scriptlets using templated HTML. Unsure if theyare related. Documenting for follow up research. |
 | 3. In HTML Style Rules  | Why are we asked to optionally omit type attributes for style sheets and scripts? |
 | 4. Are we going to cover hosting? What is done here if we want to host something a non developer can 'sample'? | TODO: I've heard GitHub sites for some. But I'd expect at least an overview and pointers to other offerings or sources including solutions like GitHub or serving sites/apps ourselves? (especially low use or temporary) |
@@ -55,8 +55,8 @@ We are responsible for images. I like to use Canva.com but for this, I'll explor
 
 | Area | Comments |
 | :--- | :--- |
-| 1. One | a. Ability to x, <br/><br/> b. B |
-| 2. Two | a. Ability to x, <br/><br/> b. B |
+| 1. HTML | a. When using `<section>` tags, you must use a heading tag (h1,h2...) as the first child in a section to be valid, <br/><br/> b. B |
+| 2. Images | a. I could have used placeholder.com for my images (adding https of course), <br/><br/> b. Attempting to use `srcset`, but need more examples. |
 | 3. Three | a. Ability to x, <br/><br/> b. B |
 | 4. Four | a. Ability to x, <br/><br/> b. B |
 | 5. Five | a. Ability to x, <br/><br/> b. B |  
