@@ -37,7 +37,11 @@
 /* img, embed, object, video {
   max-width: 100%;
 } */
-.images {
+.header-logo-container-img {
   max-width: 100%;
+  height: auto;
+}
+.featured-img {
+  width: 100%;
   height: auto;
 }

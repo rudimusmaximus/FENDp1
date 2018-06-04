@@ -1,8 +1,8 @@
-/* TODO: add my flexbox with @media query breakpoints */
-/* .featured-items {
+/* TODO: add my flexbox with media query breakpoints */
+.featured-items {
     display: flex;
     flex-wrap: wrap;
     }
 .featured {
     width: 100%;
-} */
+}
