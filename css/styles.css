@@ -29,6 +29,7 @@
 }
 .featured-work-header {
   text-align: center;
+  padding-bottom: 25px;
 }
 
 /* Set a max-width catch all in your main css to avoid overflow */

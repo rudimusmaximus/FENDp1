@@ -60,3 +60,14 @@ We are responsible for images. I like to use Canva.com but for this, I'll explor
 | 3. Three | a. Ability to x, <br/><br/> b. B |
 | 4. Four | a. Ability to x, <br/><br/> b. B |
 | 5. Five | a. Ability to x, <br/><br/> b. B |  
+
+## DevFlow
+I used my DevFlow process to do this work including creating issues for each section of the rubric. This included following git commit guidelines, 'Git Flow' branching model, custom label scheme. Hosted on GitHub and used Atom and GitKraken with it's new "Glo Boards".
+Please let me know if you'd like to get access to the repo or board. Just send me your email to add you.
+I'll use this approach on the remaining projects as it's my evolving way of doing projects.
+
+## Glo Board
+![image](https://app.gitkraken.com/api/glo/boards/5b1316054f33b715001b0476/attachments/5b160607c9b0cf0e0093b7b8)
+
+## Finished View of Largest breakpoint
+![image](https://app.gitkraken.com/api/glo/boards/5b1316054f33b715001b0476/attachments/5b1606254f33b715001b6811)
