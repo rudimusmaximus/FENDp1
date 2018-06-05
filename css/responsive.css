@@ -2,17 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     }
-.featured, .featured-img, .featured-item-header, .featured-text  {
-  height: auto;
-  text-align: center;
-  width: 100%;
-}
-.body, .header, .main, .hero-container, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {
-    /* Green */
-    /* background-color: #087d08b5; */
-    width: 100%;
-    height: auto;
-}
 
 @media screen and (min-width: 480px) and (max-width: 849px) {
   .body, .header, .main, .hero-container, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {

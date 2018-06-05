@@ -50,6 +50,8 @@ We are responsible for images. I like to use Canva.com but for this, I'll explor
 | 3. In HTML Style Rules  | Why are we asked to optionally omit type attributes for style sheets and scripts? |
 | 4. Are we going to cover hosting? What is done here if we want to host something a non developer can 'sample'? | TODO: I've heard GitHub sites for some. But I'd expect at least an overview and pointers to other offerings or sources including solutions like GitHub or serving sites/apps ourselves? (especially low use or temporary) |
 | 5. This is a private repository, how to best turn in? | TODO: Can we use a zipped release on GitHub to turn it in? Review when finished. |
+| 6. Is [this practice](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/) a "hack"? | |  
+
 
 ## Lessons learned:  
 

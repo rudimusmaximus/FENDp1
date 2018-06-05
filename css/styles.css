@@ -1,14 +1,10 @@
-/* reset everything */
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.body {
+  margin: auto;
 }
+
 /* set my fonts */
 .header, .main {
   font-family: 'Open Sans', sans-serif;
-  /* height: 100%;
-  width: 100%; */
 }
 .header-text {
   color: #2d3c49;
@@ -18,6 +14,7 @@
 }
 .featured-item-header {
   color: #2d3c49;
+  text-align: center;
 }
 .header {
   border-bottom: #7d97ad solid thick;
@@ -31,6 +28,13 @@
   text-align: center;
   padding-bottom: 25px;
 }
+.featured-items {
+  border-bottom: #7d97ad solid thick;
+}
+.featured-item-header, .featured-text {
+  text-align: center;
+}
+
 
 /* Set a max-width catch all in your main css to avoid overflow */
 /* learned this was process heavy to use tags and better to use classes */
@@ -38,11 +42,14 @@
 /* img, embed, object, video {
   max-width: 100%;
 } */
-.header-logo-container-img {
+.header-logo-container-img, .featured-img,  {
   max-width: 100%;
   height: auto;
 }
-.featured-img {
-  width: 100%;
-  height: auto;
+
+.body, .header, .main, .hero-container, .hero-img, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {
+    /* Green */
+    /* background-color: #087d08b5; */
+    width: 100%;
+    height: auto;
 }
