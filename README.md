@@ -67,9 +67,9 @@ img, embed, object, video {
 | Area | Comments |
 | :--- | :--- |
 | 1. HTML | a. When using `<section>` tags, you must use a heading tag (h1,h2...) as the first child in a section to be valid|
-| 2. Images | a. I could have used placeholder.com for my images (adding https of course), <br/><br/> b. Attempting to use `srcset`, but need more examples., <br/><br/> c. I'm not at all happy with the resolution of my images; I need some direction on this topic. |
-| 3. use of validators | very helpful to run early when you have your structure worked out, so you can focus on the rest; |
-| 4. color w layout changes | used background color to highlight break-point layout changes; commented out when done |  
+| 2. Images | a. I could have used placeholder.com for my images (adding https of course) <br/><br/> b. Attempting to use `srcset` but need more examples. Working now. <br/><br/> c. I'm not at all happy with the resolution of my images; I need some direction on this topic. HELP. |
+| 3. use of validators | This was very helpful to run early when you have your structure worked out, so you can focus on the rest; |
+| 4. color w layout changes | Used background color to highlight break-point layout changes; commented out when done |  
 
 ## DevFlow
 I used my DevFlow process to do this work including creating issues for each section of the rubric. This included following git commit guidelines, 'Git Flow' branching model, custom label scheme. Hosted on GitHub and used Atom and GitKraken with it's new "Glo Boards".
