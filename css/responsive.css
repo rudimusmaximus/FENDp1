@@ -1,8 +1,30 @@
-/* TODO: add my flexbox with media query breakpoints */
-.featured-items {
+.featured-items, .hero-container {
     display: flex;
     flex-wrap: wrap;
     }
-.featured {
+.body, .header, .main, .hero-container, .featured-items, .featured, .featured-img {
+    background-color: green;
     width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 480px) and (max-width: 849px) {
+  .body, .header, .main, .hero-container, .featured-items, .featured, .featured-img {
+      background-color: yellow;
+      max-width: 50%;
+      height: auto;
+  }
+}
+@media screen and (min-width: 850px) {
+  .featured-img {
+    max-width: 25%;
+    height: auto;
+  }
+  .body, .header, .main, .hero-container, .featured-items, .featured {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    height: auto;
+  }
 }
