@@ -1,16 +1,17 @@
 .featured-items {
-    display: flex;
-    flex-wrap: wrap;
-    }
+  display: flex;
+  flex-wrap: wrap;
+}
 
 @media screen and (min-width: 480px) and (max-width: 849px) {
   .body, .header, .main, .hero-container, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {
-      /* Yellow */
-      /* background-color: #e6e627e6; */
-      max-width: 100%;
-      height: auto;
+    /* Yellow */
+    /* background-color: #e6e627e6; */
+    max-width: 100%;
+    height: auto;
   }
 }
+
 @media screen and (min-width: 850px) {
   .item-one {
     order: 1;
@@ -36,7 +37,7 @@
     height: auto;
   }
   /* .featured-item-header, .featured-text { */
-    /* Blue */
-    /* background-color: #0e60b7db; */
-    /* } */
+  /* Blue */
+  /* background-color: #0e60b7db; */
+  /* } */
 }
