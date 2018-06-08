@@ -55,8 +55,8 @@
   .hero-container,
   .hero-img {
     width: 850px;
-    /* top/bottom | left/right */
-    margin: 0 auto;
+    /* top | right | bottom | left */
+    margin: 0 auto 25px auto;
     height: auto;
 
   }
