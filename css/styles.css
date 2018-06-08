@@ -4,7 +4,8 @@
 
 /* set my fonts */
 
-.header, .main {
+.header,
+.main {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,7 +23,8 @@
 }
 
 .header {
-  border-bottom: #7d97ad solid thick;
+  /* border-width | border-style | border-color */
+  border-bottom: thick solid #7d97ad;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -37,21 +39,31 @@
 }
 
 .featured-items {
-  border-bottom: #7d97ad solid thick;
+  /* border-width | border-style | border-color */
+  border-bottom: thick solid #7d97ad;
 }
 
-.featured-item-header, .featured-text {
+.featured-item-header,
+.featured-text {
   text-align: center;
 }
 
-.header-logo-container-img, .featured-img {
+.header-logo-container-img,
+.featured-img {
   max-width: 100%;
   height: auto;
 }
 
-.body, .header, .main, .hero-container, .hero-img, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {
-  /* Green */
-  /* background-color: #087d08b5; */
+.body,
+.header,
+.main,
+.hero-container,
+.hero-img,
+.featured-items,
+.featured,
+.featured-img,
+.featured-item-header,
+.featured-text {
   width: 100%;
   height: auto;
 }
