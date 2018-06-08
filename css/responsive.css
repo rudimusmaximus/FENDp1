@@ -4,11 +4,32 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 849px) {
-  .body, .header, .main, .hero-container, .featured-items, .featured, .featured-img, .featured-item-header, .featured-text {
-    /* Yellow */
-    /* background-color: #e6e627e6; */
+  .body,
+  .header,
+  .main,
+  .hero-container,
+  .featured-items,
+  .featured,
+  .featured-img,
+  .featured-item-header,
+  .featured-text {
     max-width: 100%;
     height: auto;
+  }
+
+  .item-one {
+    order: 1;
+    width: 50%;
+  }
+
+  .item-two {
+    order: 2;
+    width: 50%;
+  }
+
+  .item-three {
+    order: 3;
+    width: 50%;
   }
 }
 
@@ -17,27 +38,26 @@
     order: 1;
     width: 33.33%;
   }
+
   .item-two {
     order: 2;
     width: 33.33%;
   }
+
   .item-three {
     order: 3;
     width: 33.33%;
   }
-  .featured-img {
-    height: 150px;
-  }
-  .body, .header, .main, .hero-container, .hero-img {
+
+  .body,
+  .header,
+  .main,
+  .hero-container,
+  .hero-img {
     width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-    /* Blue */
-    /* background-color: #0e60b7db; */
+    /* top/bottom | left/right */
+    margin: 0 auto;
     height: auto;
+
   }
-  /* .featured-item-header, .featured-text { */
-  /* Blue */
-  /* background-color: #0e60b7db; */
-  /* } */
 }
